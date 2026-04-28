@@ -317,7 +317,7 @@ h1,
 
 h1 {
   font-size: clamp(3rem, 5vw, 5.1rem);
-  max-width: 11ch;
+  max-width: 13ch;
 }
 
 .hero-text,
@@ -612,6 +612,8 @@ h1 {
 }
 
 .testimonial-card {
+  display: flex;
+  flex-direction: column;
   padding: 24px;
 }
 
@@ -627,7 +629,7 @@ h1 {
 }
 
 .testimonial-card__author {
-  margin: 22px 0 0;
+  margin: auto 0 0;
   padding-top: 16px;
   border-top: 1px solid var(--line);
   font-weight: 700;
